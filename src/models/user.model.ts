@@ -1,20 +1,35 @@
-import { Column, DataType, Model, Table } from 'sequelize-typescript';
+import { Column, CreatedAt, DataType, Model, Table, UpdatedAt } from 'sequelize-typescript';
 
 import { roleEnum, RoleType } from '../common';
 
-
-@Table({ tableName: 'users' })
+@Table({ tableName: 'user' })
 export class User extends Model<User> {
   @Column({ autoIncrement: true, primaryKey: true })
   id!: number;
 
-  @Column({ allowNull: false })
-  name!: string;
+  @Column({ allowNull: false, field: 'first_name' })
+  firstName!: string;
 
-  @Column({ allowNull: false, type: DataType.ENUM(roleEnum), defaultValue: roleEnum[1]})
+  @Column({ allowNull: false, field: 'last_name' })
+  lastName!: string;
+
+  @Column({ allowNull: true })
+  phone!: string;
+
+  @Column({ allowNull: false })
+  email!: string;
+
+  @Column({ allowNull: false })
+  password!: string;
+
+  @Column({ allowNull: false, type: DataType.ENUM(roleEnum), defaultValue: roleEnum[1] })
   role!: RoleType;
 
-  @Column age!: number;
+  @CreatedAt
+  @Column({ field: 'created_at' })
+  createdAt!: Date;
 
-  @Column breed!: string;
+  @UpdatedAt
+  @Column({ field: 'updated_at' })
+  updatedAt!: Date;
 }

@@ -8,3 +8,6 @@ export { AuthUser, AuthUserX } from './decorators/auth-user.decorator';
 
 export type RoleType = 'admin' | 'user';
 export const roleEnum = ['admin', 'user'];
+
+export type TodoStatusType = 'todo' | 'in-progress' | 'done';
+export const todoStatusEnum = ['todo', 'in-progress', 'done'];

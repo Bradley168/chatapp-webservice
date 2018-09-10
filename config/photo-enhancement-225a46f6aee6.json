@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "linear-charmer-202102",
+  "private_key_id": "225a46f6aee69b73f7bb93f2baefaa9eccdafc22",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCe7iVIeuYJzGfY\nc/jsr8WJXStc+Ts3p05j2YUqWTH9dZfAyuG/8NoIO6d3wL7xu0vvlgpq14oM8Vuu\nUOQSPr5aVzP5Jy4wRLmhMFWdRO480+sT9SRB+DPJFIkQZC9cMcLidqkjRK0z/G1n\nEiNSlLrMhC86sC7PQrRFfdWLmSr8eaBjD1l9+hOvGQIMx+pNlsziassRGXHcDZUX\ng3ZlFpSW6dijpAW0UKptxdprvMJTRhNiqLyJwtj+d4nwhd3jDA4SAowAxBi9Hdp0\naRd6nzm2ZDUOUjd2AreR6+NBXQTp5D8MUZpYhkwkoQZopEUupyrSz4YQ3hoV7Y2M\n+2vHJg2pAgMBAAECggEALhO8QnHDLNcSymoBItnpCuS0tD1b4kxCyWcgmQEIIcRM\njWwknCnfhKCK8oiys1HKd7lH5ub7kroNCxJPtUx0kquSmWs3FG5wZR+myrRX39HO\n51fcvbWQif1GqbZqFrAkoNSnP97i2l4Wd9oF3KTbLX0rVjgLMjLUIguT9GehU1YY\nqP3Ai6KMTXt24seknKM4+7pyqQ13PvPGbKd6tYn3ZKBBCzVTY6Yq2rHrm7owSXm4\nw3ZXvku+ZRTYJ4Nl7V3DLL6yzYYK67OxJGFTzUauPpU06EMBlj9XPjguSQGkC/4I\nvt3kwYKh0OmmomX8LW03ZIkl2FqWWuMb+6nJ1N/JSwKBgQDXSs6U5fOfhnxIbgsN\nN3ILDN7sruO6AsdkoPKVPXTVYuoFSeQlrdTQ4wTCrJOxol3iYpXVeNS258F95TPZ\ngFFOucMxdS9HB1rf84nleRPmdwTRBK2JLL5ku+tPXpBAv7iUohJlPIsS0PwRDvvg\nBdnkQ8fiNQPmOevi5RJ31zPkZwKBgQC8+yUiNv0xEVqISnmj0Hfu4gYKI2U9xlSU\nmsiWOrieaGUmRBYOUe1Lj9moRDLk0BxxyoJZ6TKRgIVMIBNJPomdy8hxtarXkwhZ\nGvyot9hpndCIfzZ1IQC4pXcyYjfYR1NlNDCl2vzNepbns3nkFE9zXGIPqmY/j7Nm\n3HWDcj6zbwKBgDYU7aYLydJGB0xukEompnhOKGXOXRhqAEqv/6ArywCbk2v2ruAk\nNbSvgo+gqI1T2z+2QitY6h50Q2/rtsWpbUNYeMcgx9qQ52wgkoBZlP0s4sHa6fju\ni3lkl2zdtWD+iFCWEgbqWYlFhDyIxg71iVHFER4q8SrRXAcoQiZmoft7AoGBAJLj\nsw1RKKQHFRNyr/HAjDhFvuQKdxr5Ga0YUmlS40VdZ6HCslIXJBbjjQ7ZU6W+jR11\nhrRUKlYmS3XMSLFZxqW8S+T2jABb7NU1wMVzgOc3H2u5VZ7dNC5RjsC+zyFw70Vu\nt5FzEaS1cK5QNqItl0PXvvDmReuJyqxdF4pANrRJAoGBAKq2/EYc3RsRPHsU8COs\nA6EUNQqBBS2YTNxosEyhLQcZ8OSo1U3nHlu/x9fVRllaoWgzcuiNybsDG+jsQ6ay\ndhNts2K5xmscWcNbJBZHTczMqhRpyPvYYFv0D92uq8kluVCkUVaiwWu6buAKKTO0\n+L/cp4+OENkCTPaSke5YUd21\n-----END PRIVATE KEY-----\n",
+  "client_email": "cloud-storage@linear-charmer-202102.iam.gserviceaccount.com",
+  "client_id": "102947394580309567695",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cloud-storage%40linear-charmer-202102.iam.gserviceaccount.com"
+}

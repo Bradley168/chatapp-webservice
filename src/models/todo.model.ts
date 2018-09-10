@@ -7,7 +7,7 @@ export class Todo extends Model<Todo> {
   @Column({ autoIncrement: true, primaryKey: true })
   id!: number;
 
-  @Column({ allowNull: false })
+  @Column({ allowNull: false, field: 'user_id' })
   userId!: number;
 
   @Column({ allowNull: false })

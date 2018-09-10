@@ -11,3 +11,6 @@ export const roleEnum = ['admin', 'user'];
 
 export type TodoStatusType = 'todo' | 'in-progress' | 'done';
 export const todoStatusEnum = ['todo', 'in-progress', 'done'];
+
+export type DeviceStatusType = 'active' | 'inactive';
+export const deviceStatusEnum = ['active', 'inactive'];

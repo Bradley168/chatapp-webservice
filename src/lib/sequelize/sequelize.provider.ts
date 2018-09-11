@@ -10,7 +10,7 @@ export const databaseProvider = {
   inject: [ConfigService],
   provide: SequelizeToken,
   useFactory: async (configService: ConfigService) => {
-    const { DB_CONNECTION, DB_HOST, DB_LOGGING, DB_PASSWORD, DB_PORT, DB_SCHEMA, DB_USERNAME, DB_SOCKET_PATH } = configService.validate(
+    const { DB_CONNECTION, DB_HOST, DB_LOGGING, DB_PASSWORD, DB_PORT, DB_SCHEMA, DB_USERNAME } = configService.validate(
       'SequelizeModule',
       SequelizeConfig
     );
@@ -23,10 +23,7 @@ export const databaseProvider = {
       password: DB_PASSWORD,
       dialect: DB_CONNECTION,
       logging: DB_LOGGING ? console.log : false,
-      operatorsAliases: false,
-      dialectOptions: {
-        socketPath: DB_SOCKET_PATH
-      }
+      operatorsAliases: false
     });
     sequelize.addModels(_.map(models, x => x));
     await sequelize.sync();

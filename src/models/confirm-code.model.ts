@@ -1,7 +1,7 @@
-import { Column, CreatedAt, Table, UpdatedAt } from 'sequelize-typescript';
+import { Column, CreatedAt, Model, Table, UpdatedAt } from 'sequelize-typescript';
 
-@Table({ tableName: 'confirmcode'})
-export class ConfirmCode {
+@Table({ tableName: 'confirm-code'})
+export class ConfirmCode extends Model<ConfirmCode> {
   @Column({ autoIncrement: true, primaryKey: true })
   id!: string;
 

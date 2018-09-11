@@ -19,6 +19,9 @@ export class Todo extends Model<Todo> {
   @Column({ allowNull: false, type: DataType.ENUM(todoStatusEnum), defaultValue: todoStatusEnum[0] })
   status!: TodoStatusType;
 
+  @Column({ defaultValue: false })
+  deleted!: boolean;
+
   @CreatedAt
   @Column({ field: 'created_at' })
   createdAt!: Date;

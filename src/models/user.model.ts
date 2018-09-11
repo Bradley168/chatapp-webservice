@@ -25,6 +25,9 @@ export class User extends Model<User> {
   @Column({ allowNull: false, type: DataType.ENUM(roleEnum), defaultValue: roleEnum[1] })
   role!: RoleType;
 
+  @Column({ defaultValue: false })
+  deleted!: boolean;
+
   @CreatedAt
   @Column({ field: 'created_at' })
   createdAt!: Date;

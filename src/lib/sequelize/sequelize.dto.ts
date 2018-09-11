@@ -31,4 +31,8 @@ export class SequelizeConfig {
   @IsBoolean()
   @Transform(x => !!x)
   DB_LOGGING!: boolean;
+
+  @IsNotEmpty()
+  @IsString()
+  DB_SOCKET_PATH!: string;
 }
